@@ -7,7 +7,7 @@
 ## Задание
 
 1. Создайте виртуальную машину Linux.
-!(C:/Users/Mars/Desktop/Homeworks_netology/Coursework/Task_1.jpeq "Создание ВМ")
+![Task_1](C:/Users/Mars/Desktop/Homeworks_netology/Coursework/Task_1.jpeq "Создание ВМ")
 2. Установите ufw и разрешите к этой машине сессии на порты 22 и 443, при этом трафик на интерфейсе localhost (lo) должен ходить свободно на все порты.
 3. Установите hashicorp vault ([инструкция по ссылке](https://learn.hashicorp.com/tutorials/vault/getting-started-install?in=vault/getting-started#install-vault)).
 4. Cоздайте центр сертификации по инструкции ([ссылка](https://learn.hashicorp.com/tutorials/vault/pki-engine?in=vault/secrets-management)) и выпустите сертификат для использования его в настройке веб-сервера nginx (срок жизни сертификата - месяц).
