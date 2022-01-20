@@ -17,7 +17,14 @@
 4. Cоздайте центр сертификации по инструкции ([ссылка](https://learn.hashicorp.com/tutorials/vault/pki-engine?in=vault/secrets-management)) и выпустите сертификат для использования его в настройке веб-сервера nginx (срок жизни сертификата - месяц)..
 ![IMG](/images/Task_4_install_jq.jpg)  
 ![IMG](/images/Task_4_Certificates.jpg)  
-5. Установите корневой сертификат созданного центра сертификации в доверенные в хостовой системе.
+5. Установите корневой сертификат созданного центра сертификации в доверенные в хостовой системе.  
+![IMG](/images/Task_5_1.jpg)  
+![IMG](/images/Task_5_2.jpg)  
+![IMG](/images/Task_5_3.jpg)  
+![IMG](/images/Task_5_4.jpg)  
+![IMG](/images/Task_5_5.jpg)  
+![IMG](/images/Task_5_6.jpg)  
+![IMG](/images/Task_5_7.jpg)  
 6. Установите nginx.
 7. По инструкции ([ссылка](https://nginx.org/en/docs/http/configuring_https_servers.html)) настройте nginx на https, используя ранее подготовленный сертификат:
   - можно использовать стандартную стартовую страницу nginx для демонстрации работы сервера;
